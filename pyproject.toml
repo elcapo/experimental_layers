@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "kapotic_layers"
+version = "0.1.0"
+description = "Crazy Tensorflow layers created for pedagogical purposes"
+authors = ["Carlos Capote Pérez-Andreu <carlos.capote@hawara.es>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.9,<3.12"
+tensorflow = "2.14"
+matplotlib = "^3.8.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
